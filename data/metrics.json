@@ -1,0 +1,23 @@
+{
+  "hero": {
+    "installations": "50+",
+    "warrantyYears": "25",
+    "emiRate": "0%",
+    "floatingBadges": {
+      "dailyProduction": "45.2 kWh",
+      "batteryLevel": "92%",
+      "gridExport": "2.4 MW",
+      "systemHealthEfficiency": "98.5%",
+      "treesPlanted": "124",
+      "lifetimeSavings": "₹ 1.2 Lakhs",
+      "uvIndexStatus": "UV Index High",
+      "efficiencyStatus": "Peak Efficiency"
+    }
+  },
+  "statsBar": {
+    "yearsExperience": "4+",
+    "projectsCompleted": "50+",
+    "powerInstalled": "2MW+",
+    "clientSatisfaction": "100%"
+  }
+}
