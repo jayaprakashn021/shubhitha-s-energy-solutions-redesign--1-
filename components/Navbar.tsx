@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-brand-400 rounded-full blur opacity-20 group-hover:opacity-40 transition-opacity duration-300"></div>
             <div className="bg-gradient-to-br from-brand-500 to-brand-700 p-2.5 rounded-xl shadow-lg relative group-hover:scale-105 transition-transform duration-300">
-             <img src={log} /> 
+          
             </div>
           </div>
           <div className="flex flex-col">

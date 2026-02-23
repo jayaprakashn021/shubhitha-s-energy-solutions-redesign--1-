@@ -1,0 +1,7 @@
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="100" fill="#f8fafc" rx="8" />
+  <circle cx="50" cy="50" r="24" fill="#1e293b" />
+  <path d="M50 34 L62 58 L38 58 Z" fill="#38bdf8" />
+  <text x="90" y="55" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="#0f172a">MNRE</text>
+  <text x="90" y="75" font-family="Arial, sans-serif" font-size="10" fill="#64748b">Govt. of India</text>
+</svg>
