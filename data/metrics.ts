@@ -25,9 +25,9 @@ const metrics = {
     titleLine1: "Power Your",
     titleLine2: "World Cleanly.",
     subtitle: "Transform your property with next-generation solar solutions. Reduce costs, gain independence, and build a sustainable legacy.",
-    installations: "500+",
+    installations: "100+",
     warrantyYears: "25",
-    emiRate: "0%",
+    emiRate: "Upto 85%",
     floatingBadges: {
       dailyProduction: "145.2 kWh",
       batteryLevel: "98%",
@@ -40,10 +40,10 @@ const metrics = {
     }
   },
   statsBar: {
-    yearsExperience: "10+",
+    yearsExperience: "5+",
     powerInstalled: "50 MW+",
     overallGeneration: "7300 MWh",
-    customers: "500+"
+    customers: "100+"
   },
   projectBreakdown: {
     commercial: "30+",
@@ -70,17 +70,10 @@ const metrics = {
     },
     {
       id: "water_heaters",
-      title: "Solar Water Heaters",
+      title: "Solar Water Heaters/Street Lights/Pumps",
       description: "High-efficiency ETC and FPC solar water heating systems for domestic and industrial use, reducing gas and electric dependencies.",
       color: "bg-orange-500",
       iconKey: "sun"
-    },
-    {
-      id: "street_lights",
-      title: "Solar Street Lights",
-      description: "Autonomous, dusk-to-dawn solar street lighting solutions for communities, roadways, and private campuses.",
-      color: "bg-yellow-500",
-      iconKey: "lightbulb"
     },
     {
       id: "maintenance",
@@ -99,8 +92,8 @@ const metrics = {
   ],
   projects: [
     {
-      title: "Cold Storage Warangal",
-      type: "Industrial • 100kW",
+      title: "Laxmi Srinivasa Cold Storage",
+      type: "Industrial • 125kW",
       location: "Warangal, Telangana",
       image: "https://shubhithasenergysolutions.com/assets/videos/125%20kW%20Grid%20Connected%20Rooftop%20Solar%20PV%20Power%20Plant.mp4",
       cols: "md:col-span-2"
@@ -137,36 +130,36 @@ const metrics = {
     placeholderLocation: "e.g. Whitefield, Bangalore"
   },
   gallery: [
-    { src: "/gallery/2-kw-residential.jpeg", title: "2 kW Residential Solar", category: "Residential" },
-    { src: "/gallery/2-kw-residential-close.jpeg", title: "2 kW Residential - Details", category: "Residential" },
-    { src: "/gallery/apartment-common-area.jpeg", title: "Apartment Common Area Solar", category: "Residential" },
-    { src: "/gallery/apartment-installation.jpeg", title: "Apartment Building Solar", category: "Residential" },
-    { src: "/gallery/cleaning-service.jpeg", title: "Solar Panel Cleaning Service", category: "Maintenance" },
-    { src: "/gallery/commercial-installation-1.jpeg", title: "Commercial Rooftop Solar", category: "Commercial" },
-    { src: "/gallery/commercial-installation-2.jpeg", title: "Commercial Rooftop - Angle 2", category: "Commercial" },
-    { src: "/gallery/gm-installation.jpeg", title: "GM Plant Installation", category: "Industrial" },
-    { src: "/gallery/gm-mms.jpeg", title: "GM MMS Structure", category: "Installation" },
-    { src: "/gallery/idt-yard.jpeg", title: "IDT Yard Solar Arrays", category: "Commercial" },
-    { src: "/gallery/local-labour-installation.jpeg", title: "Local Team Installation", category: "Installation" },
-    { src: "/gallery/mms-installation.jpeg", title: "MMS Structure Setup", category: "Installation" },
-    { src: "/gallery/modules-lifting.jpeg", title: "Lifting Solar Modules", category: "Installation" },
-    { src: "/gallery/pgcil-warangal-1.jpeg", title: "PGCIL Warangal Site 1", category: "Commercial" },
-    { src: "/gallery/pgcil-warangal-2.jpeg", title: "PGCIL Warangal Site 2", category: "Commercial" },
-    { src: "/gallery/residential-installation-1.jpeg", title: "Home Installation 1", category: "Residential" },
-    { src: "/gallery/residential-installation-2.jpeg", title: "Home Installation 2", category: "Residential" },
-    { src: "/gallery/residential-installation-3.jpeg", title: "Home Installation 3", category: "Residential" },
-    { src: "/gallery/residential-installation-4.jpeg", title: "Home Installation 4", category: "Residential" },
-    { src: "/gallery/residential-installation-5.jpeg", title: "Home Installation 5", category: "Residential" },
-    { src: "/gallery/residential-installation-6.jpeg", title: "Home Installation 6", category: "Residential" },
-    { src: "/gallery/residential-installation-7.jpeg", title: "Home Installation 7", category: "Residential" },
-    { src: "/gallery/rice-industry-installation.jpeg", title: "Rice Industry Solar", category: "Industrial" }
+    { src: "./gallery/2-kw-residential.jpeg", title: "2 kW Residential Solar", category: "Residential" },
+    { src: "./gallery/2-kw-residential-close.jpeg", title: "2 kW Residential - Details", category: "Residential" },
+    { src: "./gallery/apartment-common-area.jpeg", title: "Apartment Common Area Solar", category: "Residential" },
+    { src: "./gallery/apartment-installation.jpeg", title: "Apartment Building Solar", category: "Residential" },
+    { src: "./gallery/cleaning-service.jpeg", title: "Solar Panel Cleaning Service", category: "Maintenance" },
+    { src: "./gallery/commercial-installation-1.jpeg", title: "Commercial Rooftop Solar", category: "Commercial" },
+    { src: "./gallery/commercial-installation-2.jpeg", title: "Commercial Rooftop - Angle 2", category: "Commercial" },
+    { src: "./gallery/gm-installation.jpeg", title: "GM Plant Installation", category: "Industrial" },
+    { src: "./gallery/gm-mms.jpeg", title: "GM MMS Structure", category: "Installation" },
+    { src: "./gallery/idt-yard.jpeg", title: "IDT Yard Solar Arrays", category: "Commercial" },
+    { src: "./gallery/local-labour-installation.jpeg", title: "Local Team Installation", category: "Installation" },
+    { src: "./gallery/mms-installation.jpeg", title: "MMS Structure Setup", category: "Installation" },
+    { src: "./gallery/modules-lifting.jpeg", title: "Lifting Solar Modules", category: "Installation" },
+    { src: "./gallery/pgcil-warangal-1.jpeg", title: "PGCIL Warangal Site 1", category: "Commercial" },
+    { src: "./gallery/pgcil-warangal-2.jpeg", title: "PGCIL Warangal Site 2", category: "Commercial" },
+    { src: "./gallery/residential-installation-1.jpeg", title: "Home Installation 1", category: "Residential" },
+    { src: "./gallery/residential-installation-2.jpeg", title: "Home Installation 2", category: "Residential" },
+    { src: "./gallery/residential-installation-3.jpeg", title: "Home Installation 3", category: "Residential" },
+    { src: "./gallery/residential-installation-4.jpeg", title: "Home Installation 4", category: "Residential" },
+    { src: "./gallery/residential-installation-5.jpeg", title: "Home Installation 5", category: "Residential" },
+    { src: "./gallery/residential-installation-6.jpeg", title: "Home Installation 6", category: "Residential" },
+    { src: "./gallery/residential-installation-7.jpeg", title: "Home Installation 7", category: "Residential" },
+    { src: "./gallery/rice-industry-installation.jpeg", title: "Rice Industry Solar", category: "Industrial" }
   ],
   partners: {
     approvals: [
-      { name: "MNRE Govt of India", logo: "/logos/mnre.svg" },
-      { name: "TGREDCO", logo: "/logos/tgredco.svg" },
-      { name: "TGNPDCL", logo: "/logos/tgnpdcl.svg" },
-      { name: "TGSPDCL", logo: "/logos/tgspdcl.svg" }
+      { name: "MNRE Govt of India", logo: "./gallery/mnre.svg" },
+      { name: "TGREDCO", logo: "./gallery/tgredco.svg" },
+      { name: "TGNPDCL", logo: "./gallery/tgnpdcl.svg" },
+      { name: "TGSPDCL", logo: "./gallery/tgspdcl.svg" }
     ],
     customers: [
       "Power Grid Corporation of India Warangal",
